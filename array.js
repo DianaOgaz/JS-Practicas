@@ -12,8 +12,8 @@ var frutas = ["manzana","platano", "cereza" , "fresa"];
  var masFrutas = frutas.push("Uvas");
  console.log("Nuevo elemento: " + frutas);
 
- //Eliminar elemento de un arreglo (POP)
- var ultimo = frutas.pop([4]);
+ //Eliminar elemento de un arreglo al final (POP)
+ var ultimo = frutas.pop();
  console.log("Sin uvas: " + frutas);
 
  //Agregar nuevo elemento al inicio del arreglo 
