@@ -33,3 +33,4 @@ var frutas = ["manzana","platano", "cereza" , "fresa"];
 
 //Puede haber arreglos dentro de un arreglo
 //un arreglo contiene objetos
+/**/
