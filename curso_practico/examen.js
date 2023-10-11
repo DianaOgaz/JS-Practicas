@@ -54,7 +54,7 @@ if (tipoDeSuscripcion == "free"){
     console.log("Puedes tomar casi todos los cursos de Platzi durante un año");
 }else if (tipoDeSuscripcion == "ExpertPlus"){
     console.log("Tú y alguien más pueden tomar TODOS los cursos de Platzi durante un año");
-}*/
+}
 
 var number = 5;
 
@@ -68,9 +68,52 @@ while (number >= 8) {
     var number = 0;
 }
 
-v
+// Ciclo While (JALA EN WEB)
+
+var respuesta = prompt("cuanto es 2 +2 ?:");
+while (respuesta != 4) {
+    var respuesta = prompt("cuanto es 2 +2 ?:");
+
+} 
+console.log("Respuesta correcta!") 
 
 
-// Ciclo While
+var arreglo = [1, 2, 3, 4, 5, 6];
 
+//Imprime el primer elemento
+function imprimirArreglo(arreglo) {
+    console.log("Primer elemento del arreglo: " + arreglo[0]);
+}
+//imprimirArreglo(arreglo)
 
+//imprimir todos los elementos de un arreglo uno por uno
+function imprimirElementos(arreglo) {
+    for (var i = 0;  i < arreglo.length; i++) {
+        console.log("Elementos del arreglo: " + arreglo[i]);
+    }
+}*/
+//imprimirElementos(arreglo)
+
+//imprimir todos los elementos de objetos
+var objetos = [
+    { nombre: "Diana", apellido: "Ogaz", edad: "23" },
+    { nombre: "Cesar", apellido: "Gonzalez", edad: "23" },
+    { nombre: "Camila", apellido: "Ogaz", edad: "25" }
+];
+
+function imprimirObjetos(objetos) {
+    var nombreObjetos = objetos.map(function (objeto) {
+        return objeto.nombre;
+    });
+    var apellidoObjetos = objetos.map(function (objeto) {
+        return objeto.apellido;
+    });
+    var edadObjetos = objetos.map(function (objeto) {
+        return objeto.edad;
+    });
+    console.log(nombreObjetos)
+    console.log(apellidoObjetos)
+    console.log(edadObjetos)
+}
+
+imprimirObjetos(objetos);
