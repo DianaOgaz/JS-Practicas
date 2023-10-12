@@ -19,9 +19,9 @@ switch (article) {
     }
 
     default: {
-        if (article != "computadora" && "celular" && "cable") {
-            console.log("Artículo no encontrado");
-        }
+
+        console.log("Artículo no encontrado");
+
         break;
     }
 

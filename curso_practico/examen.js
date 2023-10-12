@@ -100,6 +100,11 @@ var objetos = [
     { nombre: "Cesar", apellido: "Gonzalez", edad: "23" },
     { nombre: "Camila", apellido: "Ogaz", edad: "25" }
 ];
+var obj = {
+    nombre: 'Diana',
+    apellido: 'Ogaz',
+    edad: 23
+}
 
 function imprimirObjetos(objetos) {
     var nombreObjetos = objetos.map(function (objeto) {
@@ -116,4 +121,13 @@ function imprimirObjetos(objetos) {
     console.log(edadObjetos)
 }
 
-imprimirObjetos(objetos);
+//imprimirObjetos(objetos);
+const arr = Object.values(obj)
+
+function imprimirArreglo1(arr) {
+    for (i = 0; i < arr.length; i++){
+        console.log(arr[i]);
+    }
+}
+
+imprimirArreglo1(arr)

@@ -6,8 +6,7 @@ switch (color) {
     case 'Amarillo': console.log('Bajale!'); break;
     case 'Rojo': console.log('Detende!'); break;
     default: {
-        if (color !== 'verde' && 'Rojo' && 'Amarillo') {
-            console.log('error!');
-        }//if
+        console.log('error!');
+
     }//switch
 }
